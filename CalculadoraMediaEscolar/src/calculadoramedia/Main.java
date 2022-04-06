@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("Digite sua idade: ");
 		aluno.setIdade(leitor.nextInt());
 		
-		if(aluno.idade < 10) {
+		if(aluno.getIdade() < 10) {
 			System.out.println("Erro! Sua idade deve ser maior do que 10 anos\n");
 		}
 		
@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("Digite sua primeira nota: ");
 		aluno.setNota1(leitor.nextDouble());
 		
-		if(aluno.nota1 < 0 || aluno.nota1 > 10) {
+		if(aluno.getNota1() < 0 || aluno.getNota1() > 10) {
 			System.out.println("Erro! A nota deve ser maior que 0 e menor do que 10\n");
 		}
 		
@@ -36,7 +36,7 @@ public class Main {
 		System.out.println("Digite sua segunda nota: ");
 		aluno.setNota2(leitor.nextDouble());
 		
-		if(aluno.nota2 < 0 || aluno.nota2 > 10) {
+		if(aluno.getNota2() < 0 || aluno.getNota2() > 10) {
 			System.out.println("Erro! A nota deve ser maior que 0 e menor do que 10\n");
 		}
 		
@@ -47,7 +47,7 @@ public class Main {
 		System.out.println("Digite sua terceira nota: ");
 		aluno.setNota3(leitor.nextDouble());
 		
-		if(aluno.nota3 < 0 || aluno.nota3 > 10) {
+		if(aluno.getNota3() < 0 || aluno.getNota3() > 10) {
 			System.out.println("Erro! A nota deve ser maior que 0 e menor do que 10\n");
 		}
 		
@@ -58,7 +58,7 @@ public class Main {
 		System.out.println("Digite sua quarta nota: ");
 		aluno.setNota4(leitor.nextDouble());
 		
-		if(aluno.nota4 < 0 || aluno.nota4 > 10) {
+		if(aluno.getNota4() < 0 || aluno.getNota4() > 10) {
 			System.out.println("Erro! A nota deve ser maior que 0 e menor do que 10\n");
 		}
 		

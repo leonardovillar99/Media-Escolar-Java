@@ -1,14 +1,14 @@
 package calculadoramedia;
 
 public class Aluno {
-     String nome;
-     int idade;
-     int serie;
-     double nota1;
-     double nota2;
-     double nota3;
-     double nota4;
-     double mediaFinal;
+     private String nome;
+     private int idade;
+     private int serie;
+     private double nota1;
+     private double nota2;
+     private double nota3;
+     private double nota4;
+     private double mediaFinal;
      
 	public String getNome() {
 		return nome;
